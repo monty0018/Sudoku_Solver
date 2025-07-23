@@ -3,12 +3,12 @@
 Sudoku Solver in C++
 
 Concepts Used:
-1. **Backtracking Algorithm** – Used to explore all possible number placements in the Sudoku grid.
-2. **Recursion** – The `solveSudoku()` function calls itself to fill the board step-by-step.
-3. **2D Arrays** – Used to represent the 9x9 Sudoku grid.
-4. **Modular Functions** – Code is separated into logical functions to check for row, column, and box validity.
+1. Backtracking Algorithm – Used to explore all possible number placements in the Sudoku grid.
+2. Recursion – The `solveSudoku()` function calls itself to fill the board step-by-step.
+3. 2D Arrays – Used to represent the 9x9 Sudoku grid.
+4. Modular Functions – Code is separated into logical functions to check for row, column, and box validity.
 
-Author: [Your Name]
+Author: [Monty Chandela]
 */
 
 #include <iostream>
