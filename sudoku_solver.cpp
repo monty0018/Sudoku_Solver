@@ -78,9 +78,9 @@ bool solveSudoku(){
     for (int num = 1; num <= 9; num++){
         if (isValidPlace(row, col, num)){
             grid[row][col] = num;
-            if (solveSudoku())
+            if (solveSudoku()) //recursion
                 return true;
-            grid[row][col] = 0;
+            grid[row][col] = 0;    //backtrack
         }
     }
     return false;
